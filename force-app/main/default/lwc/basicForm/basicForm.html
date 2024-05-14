@@ -1,0 +1,19 @@
+<template>
+  <lightning-card>
+      <div class="slds-m-around_medium">
+          <h1 class="slds-text-heading_medium slds-text-align_center">Credit Memo Request</h1>
+          <h4 style="color: #00BFFF; font-size: medium;">Basic Details</h4>
+          <hr style="border-top: 1px solid black; width: 100%; margin: 0;" /> <br></br>
+          <div class="slds-form slds-form_stacked">
+              <div class="slds-form-element">
+                <lightning-input  placeholder="First Name"
+                onchange={objectNameChange} label="First Name"></lightning-input>
+                <lightning-input  placeholder="Last Name"
+                onchange={objectNameChange} label="Last Name"></lightning-input>
+
+              </div>
+              <!-- Add more form elements here -->
+          </div>
+      </div>
+  </lightning-card>  
+</template>
